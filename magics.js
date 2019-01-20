@@ -11,17 +11,20 @@ window.colors = [
 	'dark',
 	'light'
 ];
-window.members = [
-	{
-		'name':'Son',
-		'birthday':'20/11/2019'
+window.members = [{
+		'name': 'Son',
+		'birthday': '20/11/1995'
 	},
 	{
-		'name':'Duc',
-		'birthday':'20/11/2019'
+		'name': 'Đức',
+		'birthday': '20/11/1995'
+	},
+	{
+		'name': 'Trung',
+		'birthday': '30/08/1995'
 	}
 ];
 
 const app = document.querySelector('#leader-board');
 console.log(app);
-
+console.log(members);
